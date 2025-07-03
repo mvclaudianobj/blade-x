@@ -1,5 +1,5 @@
 {
-    "name": "israel-nogueira/blade-x",
+    "name": "mvclaudianobj/blade-x",
     "description": "A versão independente do mecanismo de modelagem Blade do Laravel para uso fora do Laravel.",
     "type": "library",
     "require": {
@@ -13,13 +13,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "IsraelNogueira\\BladeX\\": "src/"
+            "MarcosClaudiano\\BladeX\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Israel Nogueira",
-            "email": "israel@feats.com.br"
+            "name": "Marcos Claudiano",
+            "email": "marcos@fenixsol.com.br"
         }
     ]
 }

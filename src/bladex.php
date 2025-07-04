@@ -1,6 +1,6 @@
 <?php
 
-namespace IsraelNogueira\BladeX;
+namespace MarcosClaudiano\BladeX;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\Container as ContainerInterface;

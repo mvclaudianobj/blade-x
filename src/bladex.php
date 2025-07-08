@@ -69,7 +69,7 @@ class bladex implements FactoryContract{
 				$view =   explode('.',trim(trim($expression,'"'),"'"));
 				if($view[0]=="project"|| $view[0]=="system"){
 					if($view[0]=='project'){
-						$view[0]='app.fw-projects';
+						$view[0] = "app.projetos.".getEnv('APP_NAME');
 					}
 					if($view[0]=='system'){
 						$view[0]='app.system';
@@ -120,7 +120,7 @@ class bladex implements FactoryContract{
 		$_PATHARRAY = explode('.',$view);
 		if ($_PATHARRAY[0] == 'project' || $_PATHARRAY[0] == 'system') {
 			if ($_PATHARRAY[0] == 'project') {
-				$_PATHARRAY[0] = 'app.fw-projects';
+				$_PATHARRAY[0]='app.projetos.'.getEnv('APP_NAME');
 			}
 			if ($_PATHARRAY[0] == 'system') {
 				$_PATHARRAY[0] = 'app.system';
